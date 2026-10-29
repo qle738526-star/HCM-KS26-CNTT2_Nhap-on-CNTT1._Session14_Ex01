@@ -1,0 +1,27 @@
+Bài 1 : Loại bỏ rủi ro lưu trữ cục bộ trong dự án nhóm
+
+Phần 1 (Phân tích):
+
+Lỗi 1: Nam làm mất đoạn code quan trọng tại thời điểm sát giờ demo với khách hàng.
+
+Hậu quả: gây trễ deadline, ảnh hưởng uy tín của startup "Smart Food" trước khách hàng, làm cho thành viên trong nhóm khó chịu vì đây là uy tín của startup “Smart Food”.
+
+Lỗi 2: không chịu lưu trên Cloud.
+
+Hậu quả: do chỉ lưu trên ổ cứng máy tính cá nhân mà không lưu lên Cloud, toàn bộ những thao tác lưu vào xóa chỉ có ổ cứng đảm nhận. Chỉ cần lỡ tay lưu đè hoặc máy tính gặp trục trặc thì dữ liệu sẽ biến mất hoàn toàn mà không có bản sao lưu nào để giữ lại dữ liệu.
+
+Lỗi 3: Quản lý phiên bản thủ công bằng cách tự đặt tên file (v1, v2, final) và gửi qua Zalo.
+
+Hậu quả: Gây ra sự hỗn loạn phiên bản, khiến các thành viên dễ ghép nhầm code, gây ra lỗi logic trong chương trình và tốn thời gian đối chiếu thủ công.
+
+Phần 2 (Sửa lỗi):
+
+Tải Google drive for Desktop
+
+Sau đó chọn folder trên ổ đĩa D
+
+Bật chế độ Sync with google drive
+
+Khi Ctrl + S lưu file trên máy thì biểu tượng tích xanh sẽ hiện ra và file đã đồng bộ lên Cloud
+
+Nếu lỡ xóa nhầm nội dung nào đó, mở Google Drive trên trình duyệt web, click chuột phải vào file chọn Version History và chọn mốc thời gian cũ để khôi phục lại chỉ với 1 click chuột
